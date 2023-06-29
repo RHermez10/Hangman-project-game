@@ -1,0 +1,137 @@
+body {
+
+    background-color: #4214d8;
+    color: white;
+}
+
+
+.first-page {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+#picture {
+    padding: 2rem;
+}
+
+h1 {
+    font-family: 'Oswald',
+        sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #4214d8;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#ground,
+#bodyy,
+#head,
+#arms,
+#legs,
+#scaffold {
+    display: none;
+}
+
+.text {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.letters {
+    border-bottom: 3px solid white;
+    color: white;
+    width: 40px;
+    display: inline-block;
+    margin: 3px;
+    font-size: 2rem;
+    font-family: 'Roboto',
+        sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.word-article {
+    text-transform: uppercase;
+    font-family: 'Roboto',
+        sans-serif;
+    align-self: center;
+    margin-top: 5rem;
+    font-size: 15px;
+    vertical-align: text-bottom;
+}
+
+#container {
+    display: flex;
+    gap: 15rem;
+    margin-left: 12rem;
+}
+
+#wrong-letter {
+    display: none;
+    margin-top: 5rem;
+}
+
+#score {
+    display: none;
+    border: 5px solid white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto',
+        sans-serif;
+    width: fit-content;
+    margin-left: 70rem;
+    margin-top: -35rem;
+}
+
+#game {
+    display: none;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5rem;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    animation: cssAnimation 0s 1s forwards;
+    visibility: hidden;
+    width: 20%;
+    font-family: 'Roboto',
+        sans-serif;
+
+}
+
+@keyframes cssAnimation {
+    to {
+        visibility: visible;
+    }
+}
+
+#title {
+    font-size: 20px;
+}
